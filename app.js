@@ -22,7 +22,7 @@ const dbURI = "mongodb+srv://rathoregovind2000:Fd9IGJKEkyWPYXY5@cluster0.bojnw.m
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => {
         console.log('Database connected');
-        app.listen(3000);
+        
     })
     .catch((err) => console.log(err));
 
