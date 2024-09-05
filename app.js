@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 //database connection
-const dbURI = "mongodb+srv://viyaaat:Akash372001@nodetuts.h8kjj.mongodb.net/akakak?retryWrites=true&w=majority";
+const dbURI = "mongodb+srv://rathoregovind2000:Fd9IGJKEkyWPYXY5@cluster0.bojnw.mongodb.net/";
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => {
         console.log('Database connected');
